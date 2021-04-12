@@ -1,0 +1,30 @@
+{
+  "name": "open-channel-logger",
+  "version": "1.0.0",
+  "description": "This Api endpoint will log the incoming requests and parameters sent via the xCally Open Channel.",
+  "main": "index.ts",
+  "repository": "https://github.com/ScopServ-Dev/xCally-Open-Channel-Logger.git",
+  "author": "Sylvester Stephenson",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "simple-node-logger": "^18.12.24",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "dev": "ts-node ./index.ts"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/jest": "^24.0.18",
+    "@types/memorystream": "^0.3.0",
+    "@types/node": "^14.14.37",
+    "jest": "^24.9.0",
+    "memorystream": "^0.3.1",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "^1.18.0"
+  }
+}
