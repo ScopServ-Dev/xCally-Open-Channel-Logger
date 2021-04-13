@@ -13,7 +13,8 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
-    "dev": "ts-node ./index.ts"
+    "dev": "node ./dist/index.js",
+    "compile": "tsc -p ./"
   },
   "devDependencies": {
     "@types/debug": "^4.1.5",
